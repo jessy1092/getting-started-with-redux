@@ -1,0 +1,14 @@
+{
+  "name": "5.Writing-a-Counter-Reducer-with-Tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lee <jessy1092@gmail.com> (http://lee.logdown.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "expect": "^1.13.0"
+  }
+}
