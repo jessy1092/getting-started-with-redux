@@ -1,0 +1,15 @@
+{
+  "name": "8.React-Counter-Example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lee <jessy1092@gmail.com> (http://lee.logdown.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.8.5"
+  }
+}
