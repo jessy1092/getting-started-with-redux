@@ -66,7 +66,7 @@ const testToggleTodo = () => {
       completed: false
     }
   ];
-  // 改變 id 為 1 的 todo 的狀態 
+  // 改變 id 為 1 的 todo 的狀態
   const action = {
     type: 'TOGGLE_TODO',
     id: 1

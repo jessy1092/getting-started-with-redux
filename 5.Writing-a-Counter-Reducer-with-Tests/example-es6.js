@@ -1,4 +1,4 @@
-
+z
 import expect from 'expect';
 
 const counter = (state = 0, action) => {

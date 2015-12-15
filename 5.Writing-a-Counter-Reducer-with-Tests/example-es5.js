@@ -1,4 +1,4 @@
-
+z
 var expect = require('expect');
 
 function counter(state, action) {
