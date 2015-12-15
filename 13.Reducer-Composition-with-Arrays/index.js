@@ -24,7 +24,7 @@ const todo = (state, action) => {
     default:
       return state;
   }
-}
+};
 
 // todos reducer 處理 todo array 並使用 todo reducer 處理單一 todo
 const todos = (state = [], action) => {
@@ -39,7 +39,7 @@ const todos = (state = [], action) => {
     default:
       return state;
   }
-}
+};
 
 const testAddTodo = () => {
   const stateBefore = [];
@@ -62,7 +62,7 @@ const testAddTodo = () => {
   expect(
     todos(stateBefore, action)
   ).toEqual(stateAfter);
-}
+};
 
 const testToggleTodo = () => {
   const stateBefore = [

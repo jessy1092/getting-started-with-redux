@@ -28,7 +28,7 @@ const todos = (state = [], action) => {
     default:
       return state;
   }
-}
+};
 
 const testAddTodo = () => {
   const stateBefore = [];
@@ -51,7 +51,7 @@ const testAddTodo = () => {
   expect(
     todos(stateBefore, action)
   ).toEqual(stateAfter);
-}
+};
 
 const testToggleTodo = () => {
   const stateBefore = [

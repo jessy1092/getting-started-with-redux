@@ -16,7 +16,7 @@ const todos = (state = [], action) => {
     default:
       return state;  // 其他 action 都回傳 current state
   }
-}
+};
 
 const testAddTodo = () => {
   const stateBefore = [];
@@ -40,7 +40,7 @@ const testAddTodo = () => {
   expect(
     todos(stateBefore, action)
   ).toEqual(stateAfter);
-}
+};
 
 testAddTodo();
 console.log('All tests passed!');

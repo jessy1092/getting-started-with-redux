@@ -40,14 +40,14 @@ const testToggleTodo = () => {
     id: 0,
     text: 'Learn Redux',
     completed: true
-  }
+  };
 
   deepFreeze(todoBefore);
 
   expect(
     toggleTodo(todoBefore)
   ).toEqual(todoAfter);
-}
+};
 
 testToggleTodo();
 console.log('All tests passed!');
