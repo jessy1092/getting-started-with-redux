@@ -90,7 +90,7 @@ class FilterLink extends Component {
   render() {
     const {filter, children} = this.props;
     const {visibilityFilter} = store.getState();
-  
+
     return (
       <Link
         active={filter === visibilityFilter}
@@ -108,7 +108,7 @@ class FilterLink extends Component {
 }
 
 // Presentational Component
-const Footer = ({ visibilityFilter, onFilterClick }) => (
+const Footer = () => (
   <p>
     Show:
     {' '}

@@ -109,7 +109,7 @@ class FilterLink extends Component {
 }
 
 // Presentational Component
-const Footer = ({ visibilityFilter, onFilterClick }) => (
+const Footer = () => (
   <p>
     Show:
     {' '}
@@ -149,7 +149,7 @@ const TodoList = ({ todos, onTodoClick }) => (
 
 let nextTodoId = 0;
 // Container Component
-const AddTodo = ({ onAddClick }) => {
+const AddTodo = () => {
   let input;
 
   return (
